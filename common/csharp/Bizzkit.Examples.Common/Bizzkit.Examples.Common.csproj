@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bizzkit.Sdk.CloudMail" Version="23.22.2" />
+		<PackageReference Include="Bizzkit.Sdk.Dam" Version="23.22.2" />
+		<PackageReference Include="Bizzkit.Sdk.EcommerceSearch" Version="24.4.3" />
+		<PackageReference Include="Bizzkit.Sdk.Iam" Version="23.22.2" />
+		<PackageReference Include="Bizzkit.Sdk.Pim" Version="23.22.2" />
+		<PackageReference Include="Bizzkit.Sdk.Search" Version="24.4.3" />
+		<PackageReference Include="Bizzkit.Sdk.Search.Authenticated" Version="24.4.3" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>

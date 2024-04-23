@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "training", "training", "{020699E3-7D49-4C21-9365-11B8BAC9BFDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "getting-started", "getting-started", "{B9A76CB3-9013-4420-8C4C-A879C8789DAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BizzkitTraining", "training\getting-started\csharp\BizzkitTraining.csproj", "{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dam", "dam", "{E7D5A14F-FEF8-4486-86F6-0883339AC52D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "getting-started", "getting-started", "{5AAB30FF-4C48-498A-A94F-A852D90CE2EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DamGettingStarted", "dam\getting-started\csharp\DamGettingStarted.csproj", "{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{31D5E650-58BB-4D00-BEFF-10FB608DD74C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizzkit.Examples.Common", "common\csharp\Bizzkit.Examples.Common\Bizzkit.Examples.Common.csproj", "{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A76CB3-9013-4420-8C4C-A879C8789DAD} = {020699E3-7D49-4C21-9365-11B8BAC9BFDC}
+		{7F8F4753-7AD1-42F6-9489-1CA4453FD5C2} = {B9A76CB3-9013-4420-8C4C-A879C8789DAD}
+		{5AAB30FF-4C48-498A-A94F-A852D90CE2EA} = {E7D5A14F-FEF8-4486-86F6-0883339AC52D}
+		{6BCC4C71-5713-43CA-BA04-A591B5D6AEC8} = {5AAB30FF-4C48-498A-A94F-A852D90CE2EA}
+		{3E1F46FE-2190-4A2A-8B97-62E7FBEDD9EF} = {31D5E650-58BB-4D00-BEFF-10FB608DD74C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B922F9-0159-45A3-8205-22790CB900A8}
+	EndGlobalSection
+EndGlobal
