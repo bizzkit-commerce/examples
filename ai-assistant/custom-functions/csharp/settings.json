@@ -1,0 +1,5 @@
+{
+  "FunctionId": "my-function",
+  "InformationSetId": "my-information-set",
+  "LoadCustomInformation": true
+}
