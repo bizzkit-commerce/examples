@@ -5,7 +5,7 @@ using MyFirstCustomFunction;
 
 /*
  *  This is a simplified example of a request response interaction with a custom function.
- *  Notice that Information snippets are not immediately available and that their availability status can be fetch through the API.
+ *  Notice that Information snippets are not immediately available and that their availability status can be fetched through the API.
  *  In most cases it would be recommended to call the custom function as long running operation instead of using call and wait as done in this example.
  */
 Console.WriteLine("Loading settings.");
