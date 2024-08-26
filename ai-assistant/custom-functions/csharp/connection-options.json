@@ -1,0 +1,6 @@
+{
+  "Authority": "URL_FOR_AUTH",
+  "BaseUrl": "URL_FOR_AI_API",
+  "ClientId": "CLIENT_ID_TO_MACHINE_CLIENT_WITH_aiapi/_SCOPE",
+  "ClientSecret": ""
+}
